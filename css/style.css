@@ -4,3 +4,31 @@
     box-sizing: border-box;
 }
 
+
+html{
+    font: serif;
+    color: white;
+}
+body{
+    background-color: black;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.maximize{
+    display: flex;
+    width: 15px;
+    height: 15px;
+    background-color: grey;
+    border-radius: 2px;
+}
+
+.maximize .fa-maximize{
+    width: 15px;
+    height: 15px;
+    pad: 2px;
+    margin-left: 10px;
+}
